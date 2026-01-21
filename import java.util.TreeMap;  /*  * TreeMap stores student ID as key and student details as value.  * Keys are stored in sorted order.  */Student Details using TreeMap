@@ -1,9 +1,5 @@
 import java.util.TreeMap;
 
-/*
- * TreeMap stores student ID as key and student details as value.
- * Keys are stored in sorted order.
- */
 public class StudentTreeMap {
 
     public static void main(String[] args) {
