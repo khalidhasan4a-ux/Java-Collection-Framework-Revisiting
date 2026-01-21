@@ -1,9 +1,5 @@
 import java.util.TreeMap;
 
-/*
- * This program counts word frequencies using TreeMap.
- * TreeMap keeps keys sorted alphabetically.
- */
 public class WordFrequencyTreeMap {
 
     public static void main(String[] args) {
