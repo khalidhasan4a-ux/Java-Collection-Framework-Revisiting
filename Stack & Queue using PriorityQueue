@@ -1,16 +1,12 @@
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
-/*
- * Stack → LIFO (Last In First Out)
- * Queue → FIFO (First In First Out)
- * Implemented using PriorityQueue with custom comparator
- */
+
 public class PriorityQueueStackQueue {
 
     public static void main(String[] args) {
 
-        // Stack using PriorityQueue
+     
         PriorityQueue<Integer> stack =
                 new PriorityQueue<>(Comparator.reverseOrder());
 
@@ -20,7 +16,7 @@ public class PriorityQueueStackQueue {
 
         System.out.println("Stack Pop: " + stack.poll());
 
-        // Queue using PriorityQueue
+       
         PriorityQueue<Integer> queue = new PriorityQueue<>();
 
         queue.add(1);
