@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class KthSmallest {
+
+    public static void main(String[] args) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        list.add(10);
+        list.add(4);
+        list.add(15);
+        list.add(2);
+        list.add(8);
+
+        int k = 3;
+
+        Collections.sort(list);
+
+        System.out.println("ArrayList: " + list);
+        System.out.println(k + "th smallest element: " + list.get(k - 1));
+    }
+}
