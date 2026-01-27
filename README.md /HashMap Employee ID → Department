@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class EmployeeHashMap {
+
+    public static void main(String[] args) {
+
+        HashMap<Integer, String> emp = new HashMap<>();
+
+        emp.put(101, "HR");
+        emp.put(102, "IT");
+        emp.put(103, "Accounts");
+
+        System.out.println(emp);
+    }
+}
