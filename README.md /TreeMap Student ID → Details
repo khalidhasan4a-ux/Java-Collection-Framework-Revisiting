@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class StudentTreeMap {
+
+    public static void main(String[] args) {
+
+        TreeMap<String, String> students = new TreeMap<>();
+
+        students.put("IT101", "Rahim");
+        students.put("IT102", "Karim");
+        students.put("IT103", "Jasim");
+
+        System.out.println(students);
+    }
+}
