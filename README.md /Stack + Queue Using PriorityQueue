@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class StackQueuePQ {
+
+    public static void main(String[] args) {
+
+        PriorityQueue<Integer> stack =
+                new PriorityQueue<>(Collections.reverseOrder());
+
+        stack.add(10);
+        stack.add(20);
+        stack.add(5);
+
+        System.out.println("Stack pop: " + stack.poll());
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+
+        queue.add(10);
+        queue.add(20);
+        queue.add(5);
+
+        System.out.println("Queue poll: " + queue.poll());
+    }
+}
